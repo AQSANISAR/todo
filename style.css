@@ -1,0 +1,416 @@
+body{
+    padding: 0px;
+    margin: 0px;
+        background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80 ");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    overflow-y: hidden;}
+    
+            @font-face{
+                font-family: 'OleoScript';
+                src: url('OleoScript-Bold.ttf');
+              }
+              
+              
+        
+     header .subim{
+         /* display: inline-block; */
+         overflow-x: hidden;
+         overflow-y: hidden;
+              text-align: center;
+             display: flex;
+            align-items: center;
+            justify-content:center;
+            flex-wrap: wrap;
+            flex-direction: row;
+           text-align: center; 
+            font-family: OleoScript;
+            background-image: radial-gradient(rgb(59, 187, 87),#0a6935);
+        
+          
+        }
+        
+     .yu{display: inline-block;
+         display: flex;
+         align-items: center;
+     }
+        
+        #image{
+            display: inline-block;
+            width: 55px;
+            height: 50px;
+        }
+        /* .gty{
+        
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    flex-direction: row-reverse;
+            width: 430px;
+            height: 250px;
+            background-color: #F9E79F;
+          
+            position: relative;
+            margin: 160px auto 0px;
+            
+            
+        } */
+    .ik{  display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+        .oper{
+            /* margin: auto 440px;
+        margin-top: 40px; */
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 500px;
+            height: 600px;
+            margin-top: 35px;
+        background-image: url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
+        border: 4px solid maroon;
+        box-shadow: 0px 2px 0px 2px;
+        border-radius: 50px;
+        }
+     
+        @media screen and (max-width:639px){
+            .oper{
+    
+                width: 470px;
+            }
+        }
+        
+        @media screen and (max-width:637px){
+            .oper{
+    
+                width: 470px;
+            }
+        }
+        @media screen and (max-width:543px){
+            .oper{
+    
+                width: 470px;
+            }
+        }
+        @media screen and (max-width:439px){
+            .oper{
+    
+                width: 360px;
+            }
+        }
+        @media screen and (max-width:351px){
+            .oper{
+    
+                width: 300px;
+            }
+            
+        }
+        @media screen and (max-width:337px){
+            .oper{
+    
+                width: 300px;
+            }
+            
+        }
+        
+        @media screen and (max-width:295px){
+            .oper{
+    
+                width: 250px;
+            }
+        }
+        @media screen and (max-width:249px){
+            .oper{
+    
+                width: 215px;
+            }
+        }
+        @media screen and (max-width:215px){
+            .oper{
+    
+                width: 200px;
+            }
+        }
+        .inpu{
+            display: flex;
+            justify-content:space-around;
+            flex-wrap: nowrap;
+            flex-direction: row-reverse;
+             margin-top: 40px; 
+            border-radius: 180px;
+            margin-left: -7px;
+            padding: 5px;
+            width: 300px;
+            height: 50px;
+            border:none;
+            box-shadow:2px 2px 2px 2px maroon;
+            font-family: DancingScript-VariableFont_wght;
+        }
+      
+      
+        @media screen and (max-width:451px){
+            .inpu{
+                width: 200px;
+            }
+        }
+      
+        @media screen and (max-width:435px){
+            .inpu{
+                width: 180px;
+            }
+        }
+        @media screen and (max-width:351px){
+            .inpu{
+                width: 150px;
+            }
+        }
+       @media screen and (max-width:335px){
+           .inpu{
+               width: 150px;
+           }
+       }
+       
+       @media screen and (max-width:329px){
+        .inpu{
+            width: 180px;
+          
+        }
+    }
+    @media screen and (max-width:324px){
+        .inpu{
+            width: 140px;
+          
+        }
+    }
+   
+    @media screen and (max-width:291px){
+        .inpu{
+            width: 130px;
+        }
+        
+       }
+       @media screen and (max-width:295px){
+        .inpu{
+            width: 100px;
+        }
+       }
+       @media screen and (max-width:247px){
+        .inpu{
+            width: 80px;
+           
+           
+          
+        }
+   
+    }
+    @media screen and (max-width:243px){
+        .inpu{
+            width: 80px;
+           
+           
+          
+        }
+   
+    }
+    @media screen and (max-width:185px){
+        .inpu{
+            width: 100px;
+        }
+    }
+    @media screen and (max-width:231px){
+        .inpu{
+            width: 80px;
+        }
+       }
+       @media screen and (max-width:215px){
+        .inpu{
+            width: 50px;
+        }
+       }
+   
+       .inpu:focus{
+           outline: none;
+       }
+       
+        .fa-plus-square{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            flex-direction: row;
+    
+     
+      }
+ 
+@font-face{ font-family:'DancingScript-VariableFont_wght';
+    src:url('DancingScript-VariableFont_wght.ttf') ;
+}
+   
+#hjb{
+    border: none;
+    margin-top: 33px;
+    padding: 14px;
+    margin-left: 10px;
+    background-color:#D47C ;
+    border-radius:15px;
+
+
+}
+#hjb:focus{
+    outline: none;
+}
+
+#nm{
+    border: none;
+    margin-top: 40px;
+    padding: 14px;
+    margin-left: 10px;
+    background-color: #00B5B8;
+    border-radius: 15px;
+
+}
+@font-face {
+    font-family: 'OleoScript-Regular';
+    src: url("OleoScript-Regular.ttf");
+}
+
+#hjb:hover{
+    background-color: purple;
+
+}
+#nm:hover{
+    background-color: olivedrab;
+}
+#nm:focus{
+ outline: none;
+}
+
+
+#hh:checked +input{
+    text-decoration: line-through;
+}
+#hh:checked{
+    box-shadow:1px 0px 0px 1px;
+   
+}
+.hh{
+    margin-right: 10px;
+}
+
+#as{
+
+ float: right;
+}
+
+#as{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+#list{
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  list-style: none;
+   margin-top: -220px;
+   font-family: OleoScript-Regular;
+   margin-left: -50px;
+  
+}
+ .btnop{
+margin-left: 15px;
+float: right;
+align-items: flex-start;
+border-top: none;
+border-bottom: none;
+border-left: none;
+border-right: none;
+outline: none;
+background-color: mediumblue;
+
+}
+.fa-trash-o{
+    color: white;
+
+}
+
+ 
+.btn2{
+ 
+
+  margin-left:10px;
+border-top: none;
+border-bottom: none;
+border-left: none;
+border-right: none;
+outline: none;
+    float: right;
+    background-color: yellow;
+} 
+/* @media screen and (max-width:634px){
+    .btn2{
+        margin-left:265px;
+    }
+}
+@media screen and (max-width:452px){
+    .btn2{
+        margin-left:240px;
+    }
+    
+}
+@media screen and (max-width:447px){
+    .btn2{
+        margin-left:200px;
+    }
+}
+@media screen and (max-width:439px){
+    .btn2{
+        margin-left:150px;
+    }
+}
+@media screen and (max-width:351px){
+    .btn2{
+        margin-left:100px;
+    }
+}
+@media screen and (max-width:291px){
+    .btn2{
+        margin-left:70px;
+    }
+}
+@media screen and (max-width:247px){
+    .btn2{
+        margin-left:30px;
+    }
+}
+@media screen and (max-width:205px){
+    .btn2{
+        margin-left:5px;
+    }
+  
+} */
+li{
+ margin: 20px;
+}
+.btnop:hover{
+    background-color: black;
+}
+.btn2:hover{
+    background-color: aquamarine;
+}
+.gh{
+ 
+
+    border: none;
+    outline: none;
+    background-color: #e9e6e7;
+}
